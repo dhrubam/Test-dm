@@ -1,0 +1,8 @@
+
+  hosts: localhost
+  remote_user: dhruba
+  tasks:
+    - name: check folder status
+      stat:
+         path: /home/dhruba
+         
