@@ -1,2 +1,2 @@
-- name: Creates directory
-  file: path=/home/dhruba/dm state=directory mode=0775
+- name: Craete Folder
+  file: path=/home/dhruba/dm1 owner=user group=user mode=0755 state=directory
