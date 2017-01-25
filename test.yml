@@ -1,1 +1,2 @@
-hello
+- name: Creates directory
+  file: path=/home/dhruba state=directory mode=0775
