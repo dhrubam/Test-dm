@@ -1,2 +1,12 @@
 
-  file: path=/home/dhruba/dm1 owner=user group=user mode=0755 state=directory
+  hosts: dbservers
+  remote_user: dhruba
+  tasks:
+    - name: Craete Folder
+      file:
+         path: /home/dhruba/dm1
+         owner: dhruba
+         group: dhruba
+         mode: 0755
+         state: directory
+  
